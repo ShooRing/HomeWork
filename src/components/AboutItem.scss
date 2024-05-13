@@ -1,0 +1,31 @@
+.con4 .AboutItem {
+    a {
+        display: flex;
+        width: 220px;
+        height: 220px;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(1) {
+            background: rgba(207, 107, 39, 0.5);
+        }
+        &:nth-child(2) {
+            background: rgba(38, 44, 55, 0.5);
+        }
+        &:nth-child(3) {
+            background: rgba(9, 27, 65, 0.5);
+        }
+        a > span {
+            display: block;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        strong {
+            text-align: center;
+            span {
+                display: block;
+            }
+        }
+    }
+}

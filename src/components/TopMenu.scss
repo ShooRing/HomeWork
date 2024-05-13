@@ -1,0 +1,20 @@
+#header .util {
+    display: flex;
+    align-items: center;
+    width: 150px;
+
+    .lang {
+        display: flex;
+        li {
+            margin-right: 20px;
+            a {
+                color: #979797;
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+    }
+    .all-menu i {
+        font-size: 30px;
+    }
+}

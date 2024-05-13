@@ -1,0 +1,40 @@
+.main .con4 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main_foot_bg.jpg);
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1180px;
+        margin: auto;
+        position: relative;
+        box-sizing: border-box;
+        padding: 50px 0;
+        .left {
+            width: 480px;
+            color: #fff;
+            h2 span {
+                display: block;
+                font-weight: 100;
+            }
+            h2 + p {
+                font-weight: 100;
+                opacity: 0.8;
+            }
+            .more {
+                margin-top: 20px;
+                text-align: center;
+                display: inline-block;
+                padding: 10px 50px;
+                border: 1px solid #fff;
+                border-radius: 30px;
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

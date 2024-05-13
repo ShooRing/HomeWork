@@ -1,0 +1,12 @@
+.con2 .inner {
+    width: 1180px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    ul {
+        width: 620px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}

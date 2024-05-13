@@ -1,0 +1,23 @@
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1740px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    .inner {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1180px;
+        margin: auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+}

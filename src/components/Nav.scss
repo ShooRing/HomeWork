@@ -1,0 +1,23 @@
+#header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    .gnb {
+        padding: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+
+        li a {
+            font-size: 18px;
+            font-weight: 700;
+            color: #222;
+            display: block;
+            padding: 10px 60px;
+            background: transparent;
+        }
+    }
+}
